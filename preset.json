@@ -1,0 +1,28 @@
+{
+  "useTaobaoRegistry": true,
+  "latestVersion": "4.5.4",
+  "lastChecked": 1598922162680,
+  "presets": {
+    "yj-preset-vue": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": false,
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-router": {
+          "historyMode": false
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "cssPreprocessor": "dart-sass"
+    }
+  }
+}
